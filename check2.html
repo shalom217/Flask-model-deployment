@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ML API</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dia.css') }}">
+</head>
+<body>
+	
+ <div class="login">
+	<h1>Diabetes Prediction Analysis</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}" method = "post">
+      <tr><td>Pregnancies:             </td>  
+      <td><input type ="text" name ="pg" placeholder="Number of times pregnant"></td></tr>
+      <br>
+      <tr><td>Glucose:                 </td>  
+      <td><input type ="text" name ="glu" placeholder="A 2 hours in OGTT test"></td></tr>
+      <br>
+      <tr><td>BloodPressure:            </td>  
+      <td><input type ="text" name ="bp" placeholder="Diastolic bp (mm Hg)"></td></tr>
+      <br>
+      <tr><td>SkinThickness:            </td>  
+      <td><input type ="text" name ="st" placeholder="Triceps fold thickness (mm)"></td></tr>
+      <br>      
+      <tr><td>Insulin:                  </td>  
+      <td><input type ="text" name ="insu" placeholder="2-Hour serum insulin (mu U/ml)"></td></tr>
+      <br>
+      <tr><td>BMI:                      </td>  
+      <td><input type ="text" name ="bmi" placeholder="weight in kg/(height in m)^2"></td></tr>
+      <br>
+      <tr><td>DiabetesPedigreeFunction:            </td>  
+      <td><input type ="text" name ="dpf" placeholder="DiabetesPedigreeFunction"></td></tr>
+      <br>      
+      <tr><td>Age:                      </td>  
+      <td><input type ="text" name ="age" placeholder="Age(years)"></td></tr> 
+      <br>                       
+      <button id="ab" type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   <h2>{{ prediction_text }}</h2>
+   
+	
+
+</body>
+</html>

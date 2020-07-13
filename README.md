@@ -9,3 +9,5 @@ Model is bulit using Random Forest Classifier for model creation and being hoste
 Model is also built with XGB and with both RFC and XGB some variations are used.
 Download the files and use by your own.
 ![alt text](https://github.com/shalom217/Flask-model-deployment/blob/master/flask_api_dia.png)
+
+Check out the model deployment over heroku platform:. https://diabetes-shalom.herokuapp.com/predict

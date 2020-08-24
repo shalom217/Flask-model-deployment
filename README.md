@@ -4,6 +4,8 @@ A report was published which tells more than 100 million U.S. adults are now liv
 
 ![alt text](https://github.com/shalom217/Flask-model-deployment/blob/master/Screenshot_2.png)
 
+
+
 So it becomes a primary need for anyone to make the regular checkups for the diabetes.
 This classifier classifies a person is diabetic or not based on patient health and this service is hosted directly on web.
 Model takes some values related to the patient are 1)Number of times pregnant, 2)Plasma glucose concentration a 2 hours in an oral glucose tolerance test, 3)Diastolic blood pressure (mm Hg), 4)Triceps skin fold thickness (mm), 5)2-Hour serum insulin (mu U/ml),6)Body mass index (weight in kg/(height in m)^2), 7)Diabetes pedigree function, 8)Age and will tell patient is diabetic or not.
@@ -25,4 +27,5 @@ The best with Randomforest was 85% with balanced and unscaled data with hyperpar
 
 # Model deployment
 Check out the model deployment over heroku platform:. https://diabetes-shalom.herokuapp.com/predict
+
 ![alt text](https://github.com/shalom217/Flask-model-deployment/blob/master/flask_api_dia.png)

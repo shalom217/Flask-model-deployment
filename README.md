@@ -14,12 +14,12 @@ Download the files and use by your own.
 https://www.kaggle.com/uciml/pima-indians-diabetes-database
 
 # Accuracy:
-I used diffrent variation in this like 
-1.) Balanced and imbalanced dataset
-2.) Scaled or unscaled data
-3.) With hyperparameter tuning or not
-So accuracy was ranging from 74 to 85 percent
-The best with XGB is 84% with balanced and unscaled data with hyperparameter tuning.and
+I used diffrent variation in this like ----
+1.) Balanced and imbalanced dataset,
+2.) Scaled or unscaled data,
+3.) With hyperparameter tuning or not.
+So accuracy was ranging from 74 to 85 percent.
+The best with XGB is 84% with balanced and unscaled data with hyperparameter tuning, and
 The best with Randomforest was 85% with balanced and unscaled data with hyperparameter tuning.
  
 

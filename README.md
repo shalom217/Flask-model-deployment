@@ -10,4 +10,18 @@ Model is also built with XGB and with both RFC and XGB some variations are used.
 Download the files and use by your own.
 ![alt text](https://github.com/shalom217/Flask-model-deployment/blob/master/flask_api_dia.png)
 
+# Dataset
+https://www.kaggle.com/uciml/pima-indians-diabetes-database
+
+# Accuracy:
+I used diffrent variation in this like 
+1.) Balanced and imbalanced dataset
+2.) Scaled or unscaled data
+3.) With hyperparameter tuning or not
+So accuracy was ranging from 74 to 85 percent
+The best with XGB is 84% with balanced and unscaled data with hyperparameter tuning.and
+The best with Randomforest was 85% with balanced and unscaled data with hyperparameter tuning.
+ 
+
+# Model deployment
 Check out the model deployment over heroku platform:. https://diabetes-shalom.herokuapp.com/predict

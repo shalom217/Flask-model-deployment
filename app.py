@@ -2,7 +2,7 @@ from numpy import *
 from flask import Flask, request, render_template
 import pickle
 
-app = Flask(__name__)#just a module in python
+app = Flask(__name__)#just a module in python(starting point of the api)
 model = pickle.load(open('diaBalanced_tuned_notscaled.pkl', 'rb'))#loading the saved model
 
 @app.route('/')#will route URL with the function
@@ -33,6 +33,6 @@ def predict():
 
 if __name__ == "__main__":#if this code is running other than python then this command will come into existence
     app.run(debug=True)#means it will show the realtime changes done by the user without stopping the command prompt
-
+#when this above written code is executed then only api will run   
 
     

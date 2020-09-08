@@ -26,6 +26,6 @@ The best with Randomforest was 85% with balanced and unscaled data with hyperpar
  
 
 # Model deployment
-Check out the model deployment over heroku platform:. https://diabetes-shalom.herokuapp.com/predict
+Check out the model deployment over heroku platform:. https://diabetesnew.herokuapp.com/
 
 ![alt text](https://github.com/shalom217/Flask-model-deployment/blob/master/flask_api_dia.png)
